@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="top">
+        <div id="user-info">
+          <img src="imgs/foto-perfil.jpg" alt="Abner Suhett, um homem branco de cabelo castanho sorrindo" />
+          <div id="user-status">
+            <strong>Abner Suhett</strong>
+            <div class="status">Online</div>
+          </div>
+        </div>
+        <div id="close-chat">
+          <i class="ph-x"></i>
+        </div>
+      </div>
+      <div id="messages">
+        <div id="last-seen">Hoje 11:20</div>
+
+        <div class="messages"></div>
+      </div>
+      <form id="bottom">
+        <input id="newMessage" type="text" placeholder="Digite sua mensagem" />
+        <button id="send">
+          <i class="ph-paper-plane-right"></i>
+        </button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
