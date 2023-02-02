@@ -33,7 +33,7 @@ Aproveitei para implementar o javascript e deixar mais dinâmico
 
 ## 🔖 Layout
 
-Visite o deploy <a href="https://abnersuhettdev.github.io/boraCodar-Desafio04/"> aqui !</a>
+Visite o deploy <a href="https://abnersuhettdev.github.io/boraCodar-Desafio4/"> aqui !</a>
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1200070743637495660). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📝 Licença
